@@ -34,6 +34,7 @@ class _MenuBarState extends State<MenuBar> {
             currentIndex = index;
           });
         },
+        
         items: <BottomNavyBarItem> [
           BottomNavyBarItem(
             icon: Icon(Icons.home),
